@@ -10,6 +10,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
+    z-index: 100;
 } 
 
 .header {
@@ -126,7 +127,8 @@
    
 }
 
-.box1-text{ width: 300px;
+.box1-text{ 
+    width: 300px;
     height: 185px;
     display: flex;
     flex-direction: column;
@@ -173,13 +175,14 @@ color: #7D7D7D;
     color: #6B77E5;
 }
 
-.icons {width: 72px;
-height: 72px; 
-background-color: #40DDB6;
-border-radius: 50px;
-display: flex;
-justify-content: center;
-align-items: center;}
+.icons {
+    width: 72px;
+    height: 72px; 
+    background-color: #40DDB6;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 .Icon {
     width: 43px;
@@ -257,7 +260,78 @@ align-items: center;}
 .bannerp {
     font-family: "Inter";
     font-weight: 400;
+    font-size: 18px; 
+}
+
+
+ /* Our Team Section */
+
+ .our-team {
+    width: 1220px;
+    height: 659px;
+    margin: 155px auto 131px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ }
+
+.team-text-block {
+    color:#37393F;
+    text-align: center;
+}
+.teamtitle {
+    margin-bottom: 16px;
+    font-family: "Inter-Medium";
+    font-weight: 500;
+    font: 18px;
+    
+}
+.teamtitle2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.team-image-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-relative1 {
+    display: flex;
+    position: relative;
+   
+}
+.team-absolute1 {
+    width: 341px;
+    height: 114px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 396px;
+   
+}
+.members {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    color: #37393F;
+    
+
+
+}
+.fields {
+    font-family: Inter;
     font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
 
 
 }
