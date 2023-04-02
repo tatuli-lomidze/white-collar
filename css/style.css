@@ -1,11 +1,20 @@
 /* Header */
-.header-block {
-    height: 65px;
-    margin: 66px 0 136px 0;
+.header-container {
+    height: 254px;
+   
 }
+ .header-block {
+    height: 118px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+} 
+
 .header {
    width: 1220px;
-   margin: 0 auto ;
+   margin: 0 auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -35,8 +44,8 @@
     line-height: 22px;
     font-family: "Inter";
     font-weight: 400;
-    
-}
+    color: #37393F;
+    }
 .consulting {
     width: 184px;
     height: 65px;
@@ -48,11 +57,15 @@
     justify-content: center;
     align-items: center;
     }
-
-
-
-
+.fa-chevron-down {
+    margin-left: 3px;
+    color: #37393F;
+    font-size: 12px;
+    width: 10px;
+    height: 1px;
+   }
 /* Process Section */
+
 /* container block */
 .container-block {
     width: 1220px;
@@ -173,4 +186,78 @@ align-items: center;}
     height: 43px;
 }
 
+/* Banner Section */
 
+.banner-block {
+    
+    display: flex;
+    position: relative;
+}
+
+.banner-image {
+    height: 557px;
+    width: 100%
+    
+    ;
+}
+
+.banner-text {
+    width: 511px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+ .texts {
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    color:  #37393F;
+} 
+.banner-icon {
+    margin-top: 47px; 
+    height: 65px;
+    width: 65px;
+    background-color:#6B77E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.fa-play {
+    color: #FFFFFF;
+    font-size: 28px;
+    
+}
+
+.bannerh3 {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+   
+}
+.bannerh2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 21px;
+    
+    ;
+
+} 
+.bannerp {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
