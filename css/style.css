@@ -1,3 +1,57 @@
+/* Header */
+.header-block {
+    height: 65px;
+    margin: 66px 0 136px 0;
+}
+.header {
+   width: 1220px;
+   margin: 0 auto ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 825px;
+}
+
+.nav-item {
+    width: 601px;;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-li {
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Inter";
+    font-weight: 400;
+    
+}
+.consulting {
+    width: 184px;
+    height: 65px;
+    font-size: 18px;
+    font-family: 'Cabin';
+    background-color: #6B77E5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+
 /* Process Section */
 /* container block */
 .container-block {
@@ -10,7 +64,7 @@
 /* title block */
 .text-block {
     width: 283px;
-    height: 86px;;
+    height: 86px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -21,14 +75,16 @@
 .title01 {
     width: 119px;
     height: 22px;
+    font-size: 18px;
     margin: 0 auto;
-    font-family: 'Inter';
+    color:#37393F;
+    font-family: 'Inter-Medium';
     font-style: normal;
     font-weight: 500;}
 .title02 {
     width: 286px;
     height: 48px;
-    margin: 0 auto;
+    margin-top: 16px;
     font-size: 40px;
     color: #37393F;
     font-family: 'Poppins';
